@@ -8,6 +8,7 @@ Group:		X11/Applications/Games
 Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/0.7/%{name}-%{version}.tar.bz2
 # Source0-md5:	597a4a2ee6499b020b59c8d9de522b58
 Patch0:		%{name}-locale-names.patch
+Patch1:		%{name}-desktop.patch
 URL:		http://gtetrinet.sourceforge.net/
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	esound-devel
@@ -27,8 +28,9 @@ Tetrinet oraz identycznego z ni± ¶rodowiska gry.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
-mv po/{no,nb}.po
+mv -f po/{no,nb}.po
 
 %build
 %{__libtoolize}
