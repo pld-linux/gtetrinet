@@ -1,12 +1,12 @@
-diff -urN gtetrinet-0.7.7.orig/configure.in gtetrinet-0.7.7/configure.in
---- gtetrinet-0.7.7.orig/configure.in	2004-04-18 21:33:32.525865312 +0200
-+++ gtetrinet-0.7.7/configure.in	2004-04-18 21:33:46.154793400 +0200
+diff -urN gtetrinet-0.7.8.orig/configure.in gtetrinet-0.7.8/configure.in
+--- gtetrinet-0.7.8.orig/configure.in	2005-01-09 12:21:37.785555720 +0100
++++ gtetrinet-0.7.8/configure.in	2005-01-09 12:22:06.299220984 +0100
 @@ -12,7 +12,7 @@
  AC_PROG_CC
  
  AC_PROG_INTLTOOL([0.25])
--ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr ja mk ml ms nl no pl pt pt_BR ru sr sr@Latn sv uk zh_TW"
-+ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr ja mk ml ms nb nl pl pt pt_BR ru sr sr@Latn sv uk zh_TW"
+-ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl no pa pl pt pt_BR ru sr sr@Latn sv uk zh_CN zh_TW"
++ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl pa pl pt pt_BR ru sr sr@Latn sv uk zh_CN zh_TW"
  AM_GLIB_GNU_GETTEXT
  
  AC_PATH_PROG(GCONFTOOL, gconftool-2)
