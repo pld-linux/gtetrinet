@@ -10,7 +10,10 @@ Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/0.7/%{name}-%{version}.t
 Patch0:		%{name}-locale-names.patch
 Patch1:		%{name}-desktop.patch
 URL:		http://gtetrinet.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libgnomeui-devel >= 2.0.0
+BuildRequires:	libtool
 BuildRequires:	esound-devel
 Requires(post):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
