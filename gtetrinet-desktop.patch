@@ -1,0 +1,41 @@
+--- gtetrinet-0.7.7/gtetrinet.desktop~	Fri Jul 23 22:09:36 2004
++++ gtetrinet-0.7.7/gtetrinet.desktop	Fri Jul 23 22:09:36 2004
+@@ -15,8 +15,8 @@
+ Name[hr]=GTetrinet
+ Name[ja]=GTetrinet
+ Name[ms]=GTetrinet
++Name[nb]=GTetrinet
+ Name[nl]=GTetrinet
+-Name[no]=GTetrinet
+ Name[pl]=GTetrinet
+ Name[pt]=GTetrinet
+ Name[pt_BR]=GTetrinet
+@@ -41,8 +41,8 @@
+ GenericName[hr]=Klijent Tetrinet -a
+ GenericName[ja]=Tetrinet クライアント
+ GenericName[ms]=Klien Tetrinet
++GenericName[nb]=Tetrinet-klient
+ GenericName[nl]=Tetrinet-cliënt
+-GenericName[no]=Tetrinet-klient
+ GenericName[pl]=Klient Tetrinet
+ GenericName[pt]=Cliente Tetrinet
+ GenericName[pt_BR]=Cliente Tetrinet
+@@ -67,8 +67,8 @@
+ Comment[hr]=Klijent Tetrinet-a za GNOME
+ Comment[ja]=GNOME 用 Tetrinet クライアント
+ Comment[ms]=Klien Tetrinet bagi GNOME
++Comment[nb]=Tetrinet-klient for GNOME
+ Comment[nl]=Tetrinet-cliënt voor GNOME
+-Comment[no]=Tetrinet-klient for GNOME
+ Comment[pl]=Klient Tetrinet dla GNOME
+ Comment[pt]=Cliente tetrinet para o GNOME
+ Comment[pt_BR]=Cliente tetrinet para o GNOME
+@@ -85,7 +85,7 @@
+ StartupNotify=true
+ Terminal=false
+ Type=Application
+-Categories=GNOME;Application;Game;BlocksGame;
++Categories=GTK;GNOME;Game;BlocksGame;
+ X-GNOME-Bugzilla-Bugzilla=GNOME
+ X-GNOME-Bugzilla-Product=gtetrinet
+ X-GNOME-Bugzilla-Component=general
