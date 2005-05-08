@@ -5,8 +5,8 @@ diff -urN gtetrinet-0.7.8.orig/configure.in gtetrinet-0.7.8/configure.in
  AC_PROG_CC
  
  AC_PROG_INTLTOOL([0.25])
--ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl no pa pl pt pt_BR ru sr sr@Latn sv uk zh_CN zh_TW"
-+ALL_LINGUAS="am az ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl pa pl pt pt_BR ru sr sr@Latn sv uk zh_CN zh_TW"
+-ALL_LINGUAS="am az bg ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl no pa pl pt pt_BR ru rw sr sr@Latn sv tr uk vi zh_CN zh_TW"
++ALL_LINGUAS="am az bg ca cs cy de en_CA en_GB es eu fr ga hr it ja ko mk ml ms nb nl pa pl pt pt_BR ru rw sr sr@Latn sv tr uk vi zh_CN zh_TW"
  AM_GLIB_GNU_GETTEXT
  
  AC_PATH_PROG(GCONFTOOL, gconftool-2)
