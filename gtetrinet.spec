@@ -13,9 +13,11 @@ URL:		http://gtetrinet.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	esound-devel
+BuildRequires:	gettext-devel
 BuildRequires:	intltool
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 Requires(post):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
