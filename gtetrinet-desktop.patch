@@ -30,7 +30,7 @@ diff -urN gtetrinet-0.7.8.orig/gtetrinet.desktop gtetrinet-0.7.8/gtetrinet.deskt
  Terminal=false
  Type=Application
 -Categories=GNOME;Application;Game;BlocksGame;
-++Categories=GTK;GNOME;Game;BlocksGame;
++Categories=GTK;GNOME;Game;BlocksGame;
  X-GNOME-Bugzilla-Bugzilla=GNOME
  X-GNOME-Bugzilla-Product=gtetrinet
  X-GNOME-Bugzilla-Component=general
