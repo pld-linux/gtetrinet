@@ -2,7 +2,7 @@ Summary:	Clone of the popular Tetrinet game for Win95/NT
 Summary(pl):	Klon Tetrinet, popularnej gry dla Win95/NT
 Name:		gtetrinet
 Version:	0.7.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/0.7/%{name}-%{version}.tar.bz2
