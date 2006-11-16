@@ -1,14 +1,12 @@
 Summary:	Clone of the popular Tetrinet game for Win95/NT
 Summary(pl):	Klon Tetrinet, popularnej gry dla Win95/NT
 Name:		gtetrinet
-Version:	0.7.9
+Version:	0.7.11
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://ftp.gnome.org/pub/gnome/sources/gtetrinet/0.7/%{name}-%{version}.tar.bz2
-# Source0-md5:	e878c76820a9453433bb9bca5618d52b
-Patch0:		%{name}-locale-names.patch
-Patch1:		%{name}-desktop.patch
+# Source0-md5:	7d113e49506e44b836ce6f259fd3ad88
 URL:		http://gtetrinet.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -33,8 +31,6 @@ Tetrinet oraz identycznego z ni± ¶rodowiska gry.
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
 
 rm -f po/no.po
 
@@ -66,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README
+%doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_sysconfdir}/gconf/schemas/%{name}.schemas
 %{_desktopdir}/*.desktop
