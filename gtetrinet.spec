@@ -1,5 +1,5 @@
 Summary:	Clone of the popular Tetrinet game for Win95/NT
-Summary(pl):	Klon Tetrinet, popularnej gry dla Win95/NT
+Summary(pl.UTF-8):   Klon Tetrinet, popularnej gry dla Win95/NT
 Name:		gtetrinet
 Version:	0.7.11
 Release:	1
@@ -24,10 +24,10 @@ GTetrinet is a clone of the popular Tetrinet game for Win95/NT. It is
 designed to be fully compatible with, and to be identical in gameplay
 to the original Tetrinet.
 
-%description -l pl
+%description -l pl.UTF-8
 GTetrinet jest klonem Tetrinet, popularnej gry dla Win95/NT.
-Zaprojektowano go maj±c na celu zapewnienie pe³nej zgodno¶ci z
-Tetrinet oraz identycznego z ni± ¶rodowiska gry.
+Zaprojektowano go majÄ…c na celu zapewnienie peÅ‚nej zgodnoÅ›ci z
+Tetrinet oraz identycznego z niÄ… Å›rodowiska gry.
 
 %prep
 %setup -q
