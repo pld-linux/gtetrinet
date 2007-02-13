@@ -1,5 +1,5 @@
 Summary:	Clone of the popular Tetrinet game for Win95/NT
-Summary(pl.UTF-8):   Klon Tetrinet, popularnej gry dla Win95/NT
+Summary(pl.UTF-8):	Klon Tetrinet, popularnej gry dla Win95/NT
 Name:		gtetrinet
 Version:	0.7.11
 Release:	1
